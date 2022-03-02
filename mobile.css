@@ -21,14 +21,10 @@
 
 @media screen and (max-width: 999px) {
 
-    html{
-        scroll-behavior: smooth;
-    }
-
     body{
         overflow-x: hidden;
         /*position: relative;*/
-        /*width: 100%;*/
+        width: 100%;
     }
 
     .nav-list{
