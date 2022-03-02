@@ -19,14 +19,17 @@
     }
 }
 
-@media (max-width: 999px) {
+@media screen and (max-width: 999px) {
 
     body{
         overflow-x: hidden;
+        /*position: relative;*/
+        width: 100%;
     }
 
     .nav-list{
-       position: absolute;
+       /*position: absolute;*/
+       position: fixed;
        top: 8vh;
        right: 0;
        width: 50vw;
