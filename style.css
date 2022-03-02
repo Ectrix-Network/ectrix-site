@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#cabecalho{
+    background-color: #1356f2;
+}
+
+#cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #logo{
+    cursor: pointer;
+    max-width: 120px;
+    max-height: 100px;
+}
+
+#cabecalho #but-menu{
+    color: white;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 7px;
+    cursor: pointer;
+    display: none;
+}
+
+#cabecalho #but-menu:hover{
+    background-color: #0071e3;
+    border-color: #0071e3;
+}
+
+#cabecalho #menu ul li{
+    font-family: 'Poppins';
+    display: inline-block;
+    list-style: none;
+}
+
+#cabecalho #menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: block;
+    transition: background-color 0.3s linear;
+}
+
+
+#cabecalho #menu a:hover{
+    color: #34cfda;
+    transition: .3s linear;
+}
+
+
+
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.about .content img{
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.text{
+    font-family: 'Poppins';
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.content{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h1{
+    color: #2984df;
+    font-size: 65px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text h5{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.text p{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+button{
+    font-family: 'Poppins';
+    background-color: #99e8ee;
+    color: black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid #34cfda;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.clientpanel button{
+    background-color: #0f0ca1;
+    color: white;
+}
+
+.about .content img{
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.ddos-text{
+    font-family: 'Poppins';
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+
+.price-table{
+    font-family: 'Poppins';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1500px, 100%);
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.price-card{
+    flex: 1;
+    max-width: 360px;
+    background-color: white;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(56, 56, 56);
+    transition: .3s linear;
+}
+
+.price-card-h3{
+    background-color: #2984df;
+    display: inline-block;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+
+.price-card:hover .price-card-h3{
+    box-shadow: 0 0 0 26em #2984df;
+}
+
+.price{
+    font-size: 70px;
+    color: #2984df;
+    margin: 40px 0;
+    transition: .2s linear;
+}
+
+.price sup, .price span{
+   font-size: 22px; 
+   font-weight: 700;
+}
+
+.price-card:hover, .price-card:hover .price{
+    color: white;
+}
+
+.price-card li{
+    font-size: 16px;
+    padding: 13px 0;
+    text-transform: uppercase;
+}
+
+.buy-btn{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #2984df;
+    color: #2984df;
+    padding: 10px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+.buy-btn:hover{
+    background-color: #2984df;
+    color: white;
+}
+
+
+.ddos{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ddos .ddos-content img{
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.ddos-text{
+    font-family: 'Poppins';
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.ddos-content{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ddos-text h1{
+    color: #2984df;
+    font-size: 65px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.ddos-text h5{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.ddos-text p{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+.OS{
+    font-family: 'Poppins';
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+}
+
+.OS img{
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+}
+
+.OS-text{
+    width: 550px;
+}
+
+.main{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.OS-text h5{
+    color: rgb(15, 15, 15);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.OS-text p{
+    color: rgb(51, 51, 51);
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+.faqs{
+    font-family: 'Poppins';
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-title{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3{
+    font-size: 1.8rem;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.0s ease;
+}
+
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.faq.active .answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg{
+    transition: rotate(180deg);
+}
+
+svg{
+    transition: transform 0.5s ease-in;
+}
+
+@keyframes fade{
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#rodape{
+    position: relative;
+    bottom: -250px;
+    background-color: rgb(24, 18, 34);
+    padding: 50px;
+    margin-top: -200px;
+}
+
+#rodape span{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    color: #999;
+}
