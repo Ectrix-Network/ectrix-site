@@ -242,6 +242,7 @@ button:hover{
     text-transform: uppercase;
     font-weight: 500;
     transition: .3s linear;
+    text-decoration: none;
 }
 
 .buy-btn:hover{
