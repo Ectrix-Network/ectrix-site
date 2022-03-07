@@ -139,6 +139,11 @@ button{
     font-weight: bold;
 }
 
+.discord a{
+    color: #333333;
+    text-decoration: none;
+}
+
 button:hover{
     transform: scale(1.2);
     background-color: transparent;
